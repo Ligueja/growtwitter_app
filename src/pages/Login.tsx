@@ -1,7 +1,10 @@
 import { CardLoginStyled } from "../components/styled/CardLoginStyled";
 import { ContainerLoginStyled } from "../components/styled/ContainerLoginStyled";
+import { InputGroupLoginStyled } from "../components/styled/InputGroupLoginStyled";
 
 import { LeftLoginStyled } from "../components/styled/LeftLoginStyled";
+import { LoginFormStyled } from "../components/styled/LoginFormSyled";
+import { RightLoginStyled } from "../components/styled/RightLoginStyled";
 
 export function Login() {
   return (
@@ -18,6 +21,22 @@ export function Login() {
             pessoas de todo o mundo e a disseminação de ideias.
           </p>
         </LeftLoginStyled>
+        <LoginFormStyled>
+          <RightLoginStyled>
+            <h2>Entrar no Growtwitter</h2>
+            <InputGroupLoginStyled>
+              <label htmlFor='email'>E-mail</label>
+              <input type='email' name='email' id='email' required />
+            </InputGroupLoginStyled>
+            <InputGroupLoginStyled>
+              <label htmlFor='password'>Password</label>
+              <input type='password' name='password' id='password' required />
+            </InputGroupLoginStyled>
+            <InputGroupLoginStyled>
+              <button type='submit'>Entrar</button>
+            </InputGroupLoginStyled>
+          </RightLoginStyled>
+        </LoginFormStyled>
       </CardLoginStyled>
     </ContainerLoginStyled>
   );
