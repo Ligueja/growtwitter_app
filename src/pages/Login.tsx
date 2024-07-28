@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { CardLoginStyled } from "../components/styled/CardLoginStyled";
-import { ContainerLoginStyled } from "../components/styled/ContainerLoginStyled";
-import { InputGroupLoginStyled } from "../components/styled/InputGroupLoginStyled";
-import { LeftLoginStyled } from "../components/styled/LeftLoginStyled";
-import { LoginFormStyled } from "../components/styled/LoginFormSyled";
-import { RightLoginStyled } from "../components/styled/RightLoginStyled";
+import { CardLoginStyled } from "../components/styled/login/CardLoginStyled";
+import { ContainerLoginStyled } from "../components/styled/login/ContainerLoginStyled";
+import { InputGroupLoginStyled } from "../components/styled/login/InputGroupLoginStyled";
+import { LeftLoginStyled } from "../components/styled/login/LeftLoginStyled";
+import { LoginFormStyled } from "../components/styled/login/LoginFormSyled";
+import { RightLoginStyled } from "../components/styled/login/RightLoginStyled";
 import { useEffect } from "react";
 import { login } from "../configs/services/growtwitter-api/auth/auth.service";
 
